@@ -8,9 +8,8 @@
     <application
         android:allowBackup="true"
         android:usesCleartextTraffic="false"
-        android:label="보글사다리 최강1픽"
+        android:label="보글사다리3 삼치기 Hedge V2"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"
@@ -20,7 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <service
             android:name=".AutoDrawService"
             android:exported="false"

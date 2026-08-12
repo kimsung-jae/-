@@ -3,15 +3,15 @@ plugins {
 }
 
 android {
-    namespace 'com.bubbleladder.triplehedge'
+    namespace 'com.bubbleladder.triplehedgev2'
     compileSdk 35
 
     defaultConfig {
-        applicationId "com.bubbleladder.triplehedge"
+        applicationId "com.bubbleladder.triplehedgev2"
         minSdk 24
         targetSdk 34
-        versionCode 20
-        versionName "2.0-singlepick"
+        versionCode 1
+        versionName "2.2-standalone-v2"
     }
 
     compileOptions {
